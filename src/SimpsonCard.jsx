@@ -1,18 +1,12 @@
 import React from 'react'
+import simpsons from './simpsons.js'
 
-const SimpsonCard = () => {
-    const data = {
-        gender: "",
-        id: 1,
-        name: "Children",
-        normalized_name: "children"
-    
-    }
+const SimpsonCard = ({simpson}) => {
   return (
     <div>
-        <h4>{data.name}</h4>
-        <h6>{data.gender}</h6>
-        <p><small>{data.normalized_name}</small></p>
+        <h4>{simpson.name}</h4>
+        <h6>{simpson.gender}</h6>
+        <p><small>{simpson.normalized_name}</small></p>
         </div>
   )
 }
