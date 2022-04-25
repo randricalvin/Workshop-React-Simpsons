@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import SimpsonList from './SimpsonList';
-import data from './data.json';
+import data from './data.js';
 
 
 function App() {
