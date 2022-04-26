@@ -6,14 +6,16 @@ const SimpsonList = () => {
 return (
     <div>
         <h2>SimpsonList</h2>
-{simpsons.map ((simpson, index) => {
+        <div className='container'>
+            <div className='row'>
+            {simpsons.map ((simpson, index) => {
     if (index < 10)
         return <SimpsonCard simpson={simpson} />
         return ""
     
 })}
-
-
+            </div>
+        </div>
     </div>
 )
 }

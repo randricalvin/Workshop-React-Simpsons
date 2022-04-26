@@ -3,7 +3,7 @@ import simpsons from './simpsons.js'
 
 const SimpsonCard = ({simpson}) => {
   return (
-    <div>
+    <div className='col-4 card border m-4'>
         <h4>{simpson.name}</h4>
         <h6>{simpson.id}</h6>
         <p><small>{simpson.normalized_name}</small></p>
